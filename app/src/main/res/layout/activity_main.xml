@@ -5,9 +5,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
-    android:background="#ccccff"
+    android:background="#ffffff"
     android:gravity="center"
+
+
    >
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textColor="#000099"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="CREATE AN ACCOUNT"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:layout_width="match_parent"
@@ -25,9 +44,15 @@
         android:id="@+id/passwordBox"
         android:hint="Enter Your Password"/>
 
+
     <Button
-        android:id="@+id/passButton"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:id="@+id/passButton"
+        android:text="LOGIN"/>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bottom_bg"/>
 </LinearLayout>
